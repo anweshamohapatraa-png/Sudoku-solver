@@ -1,0 +1,47 @@
+body {
+    background: #eef1f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#sudoku-grid {
+    display: grid;
+    grid-template-columns: repeat(9, 45px);
+    grid-template-rows: repeat(9, 45px);
+    gap: 2px;
+    margin: 20px auto;
+}
+
+input {
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    font-size: 20px;
+}
+
+button {
+    padding: 10px 16px;
+    margin: 5px;
+    background: #4378ff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+button:hover {
+    background: #365fcc;
+}
